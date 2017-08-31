@@ -1,0 +1,43 @@
+body{
+  background-image: url(img/paint-explosion.jpg);
+  background-size: 100%;
+}
+h1{
+  text-align: center;
+  color: darkmagenta;
+  font-family: 'Permanent Marker', cursive;
+  font-size:80px;
+}
+main{
+  height: 600px;
+  width: 800px;
+  margin: auto;
+}
+canvas{
+  border-radius: 30px;
+  border: 5px solid darkmagenta;
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+#outils{
+  border: 5px solid darkmagenta;
+  border-radius: 20px;
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+}
+ul{
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}

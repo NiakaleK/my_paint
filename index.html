@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+ <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+	<title>My Paint</title>
+</head>
+<body>
+<h1>My Paint</h1>
+<main id="paint">
+	<div id="outils">
+		<ul>
+			<li class="base" id="crayon"><button><img class="icon" src="img/crayon.png" alt="crayon"/></button></li>
+			<li class="base" id="ligne"><button><img class="icon" src="img/line.png" alt="ligne"/></button></li>
+			<li class="base" id="rectangle"><button><img class="icon" src="img/rectangle.svg" alt="rectangle"/></button></li>
+			<li class="base" id="cercle"><button><img class="icon" src="img/rond.png" alt="cercle"/></button></li>
+			<li class="base" id="full"><button><img class="icon" src="img/full.jpg" alt="full"/></button></li>
+			<li class="base" id="gomme"><button><img class="icon" src="img/eraser.png" alt="gomme"/></button></li>
+			<li class="base"><a id="download" href="#"><button><img class="icon" src="img/save.png" alt="save"/></button></a></li>
+			<li class="base" id="clear"><button>clear</button></li>
+		</ul>
+		<label>Epaisseur</label>
+		<input type="range" min="2" max="40" value="5" id="largeur" />
+		<label>Couleur</label>
+		<input type="color" value="#000000" name="my_color" id="my_color">
+	</div>
+	<canvas id="canvas"></canvas>
+</main>
+</body>
